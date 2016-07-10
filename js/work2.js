@@ -46,13 +46,13 @@ document.addEventListener("DOMContentLoaded", function(){
 	
 	box2.addEventListener("mouseover", function(){
 		label2.style.display="none";
-		span2.style.display="none";
+//		span2.style.display="none";
 		hr2.style.display="none";
 	});
 		
 	box2.addEventListener("mouseout", function(){
 		label2.style.display="block";
-		span2.style.display="block";
+//		span2.style.display="block";
 		hr2.style.display="block";
 	});
 	

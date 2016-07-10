@@ -498,24 +498,24 @@ textarea {
 }
 #flickr{
 	float: right;
-	margin: -40px 500px;
+	margin: -40px 400px;
 }
 #vimeo{
 	float: right;
-	margin: -40px 460px;
+	margin: -40px 360px;
 }
 #print{
 	float:right;
-	margin:-40px 420px;
+	margin:-40px 320px;
 }
 #twitter{
 	float: right;
-	margin: -40px 380px;
+	margin: -40px 280px;
 }
 #logox{
 	color: grey;
 	float: right;
-	margin: -30px 240px;
+	margin: -30px 100px;
 }
 #on2{
 	
@@ -726,7 +726,10 @@ select{
 	position: absolute;
 	top: 90px;
 	left:10px;
-	border: 2px solid black;
+	
+}
+.hideTrans{
+	display: none;
 }
 #colorPrice{
 	position: absolute;
@@ -743,3 +746,21 @@ select{
 	height: 30px;
 	
 }
+#transPrice{
+	position: absolute;
+	top: 90px;
+	left:20px;
+}
+#calc{
+	position: absolute;
+	left: 220px;
+}
+.menuLi li:hover{
+	background: white;
+	color: black;
+}
+/*checkbox customize*/
+input[type="checkbox"]:checked {
+	content: url("../images/form_ok.jpg");
+}
+/*logo shake*/
