@@ -1,23 +1,23 @@
 document.addEventListener("DOMContentLoaded", function(){
 	
 	
-	// menu list
-	var companybtn= document.querySelector("#firma");
-	var menu= document.querySelector("#menu");
-	var arrowUp=document.querySelector("#arrowUp")
-	console.log(companybtn);
-	companybtn.addEventListener("mouseover", function(){
-		console.log("over");
-		menu.style.display="block";
-		arrowUp.style.display="block";
-		
-	});
-	
-	companybtn.addEventListener("mouseout", function(){
-		console.log("out");
-		menu.style.display= "none";
-		arrowUp.style.display="none";
-	}); 
+	 //menu list
+//	var companybtn= document.querySelector("#firma");
+//	var menu= document.querySelector("#menu");
+//	var arrowUp=document.querySelector("#arrowUp")
+//	console.log(companybtn);
+//	companybtn.addEventListener("mouseover", function(){
+//		
+//		menu.style.display="block";
+//		arrowUp.style.display="block";
+//		
+//	});
+//	
+//	companybtn.addEventListener("mouseout", function(){
+//		
+//		menu.style.display= "none";
+//		arrowUp.style.display="none";
+//	}); 
 	
 	
 	// znikające divy  	
